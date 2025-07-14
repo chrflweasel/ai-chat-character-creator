@@ -1,12 +1,12 @@
-import { FC } from "react";
+import {type FC } from "react";
 import {
     FormControl,
     MenuItem,
     Select,
-    SelectChangeEvent,
+    type SelectChangeEvent,
 } from "@mui/material";
 import useGeneral from "../../features/general/useGeneral.ts";
-import ThemeName, { themeNames } from "../../themes/themesConfig.ts";
+import {type ThemeName, themeNames} from "../../themes/themesConfig.ts";
 import {setThemeName} from "../../features/general/generalSlice.ts";
 import { useAppDispatch } from "../../features/store.ts";
 import useThemeLocalization from "../../themes/useThemeLocalization.ts";

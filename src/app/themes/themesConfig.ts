@@ -1,4 +1,4 @@
-export const themeNames = ['light', 'dark'] as const;
+export const themeNames = ['light', 'dark', 'system'] as const;
 export type ThemeName = typeof themeNames[number];
 
 export const stringToThemeName = (themeName: string | null): ThemeName | null => {

@@ -11,7 +11,7 @@ export interface State {
 
 export const initialState: State = {
     windowTitle: 'Character Creator',
-    themeName: themeStorage.getTheme() ?? 'dark',
+    themeName: themeStorage.getTheme() ?? 'system',
     common: CommonStorage.getCommonState() ?? {
         sidePanelMode: 'compact'
     },
