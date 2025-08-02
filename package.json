@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev:netlify": "netlify dev"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -16,6 +17,7 @@
     "@fontsource/poppins": "^5.2.6",
     "@mui/icons-material": "^7.2.0",
     "@mui/material": "^7.0.0-rc.0",
+    "@netlify/functions": "^4.2.1",
     "@reduxjs/toolkit": "^2.8.2",
     "axios": "^1.10.0",
     "i18next": "^25.3.2",
