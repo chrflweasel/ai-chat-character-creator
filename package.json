@@ -1,13 +1,14 @@
 {
-  "name": "ai-chat-character-creator",
+  "name": "rpg-persona-maker",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev:netlify": "netlify dev"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -16,8 +17,9 @@
     "@fontsource/poppins": "^5.2.6",
     "@mui/icons-material": "^7.2.0",
     "@mui/material": "^7.0.0-rc.0",
+    "@netlify/functions": "^4.2.1",
     "@reduxjs/toolkit": "^2.8.2",
-    "axios": "^1.10.0",
+    "axios": "1.11.0",
     "i18next": "^25.3.2",
     "i18next-browser-languagedetector": "^8.2.0",
     "i18next-http-backend": "^3.0.2",
