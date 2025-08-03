@@ -30,8 +30,6 @@ export const handler: Handler = async (event, context) => {
             "7": 'растительность на лобке + рыжий',
         });
 
-        console.log(attrString);
-
         const response = await axios.post(
             'https://openrouter.ai/api/v1/chat/completions',
             {
