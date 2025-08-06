@@ -1,4 +1,13 @@
 {
-  "welcome": "Добро пожаловать в моё приложение!",
-  "greeting": "Привет, {{name}}!"
+  "themes": {
+    "dark": "Тёмная",
+    "light": "Светлая",
+    "system": "Системная"
+  },
+  "personaSectionTemplateNames": {
+    "name": "Имя",
+    "age": "Возраст",
+    "gender": "Пол",
+    "cloth": "Одежда"
+  }
 }

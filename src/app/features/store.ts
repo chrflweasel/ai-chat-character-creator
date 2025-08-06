@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit"
 import {type TypedUseSelectorHook, useDispatch, useSelector} from "react-redux";
 import GeneralSlice from "./general/generalSlice";
+import personaSlice from "./persona/personaSlice.ts";
 
 const store = configureStore({
     reducer: {
         general: GeneralSlice,
+        persona: personaSlice
     }})
 
 export default store

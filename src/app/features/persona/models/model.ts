@@ -1,24 +1,23 @@
-export interface Persona {
-    // TODO implement other fields
-    name: string;
-    id: string; // uuid
-    sections: PersonaSection[];
-}
-
+// export interface Persona {
+//     // TODO implement other fields
+//     name: string;
+//     id: string; // uuid
+//     sections: PersonaSection[];
+// }
 export interface PersonaSection {
-    template: PersonaSectionTemplate;
     id: string; // uuid
-    customName?: string;
+    template: PersonaSectionTemplate;
+    customName?: string; // this is for user custom name
     attributes: Attribute[];
 }
-
+//
 export interface PersonaSectionTemplate {
-    color: string;
     id: string; // uuid
+    color: string;
     nameLocalizationId: string;
-    iconName: IconNames;
+    iconName?: IconNames;
 }
-
+//
 export type IconNames = 'cloth' | 'appearance' | 'age' | 'gender' | 'race' | 'class';
 
 export interface Modificator extends ColorTemplateBase {

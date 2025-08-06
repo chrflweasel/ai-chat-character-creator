@@ -3,5 +3,11 @@
     "dark": "Dark",
     "light": "Light",
     "system": "System"
+  },
+  "personaSectionTemplateNames": {
+    "name": "Name",
+    "age": "Age",
+    "gender": "Gender",
+    "cloth": "Cloth"
   }
 }

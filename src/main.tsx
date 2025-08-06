@@ -6,8 +6,10 @@ import {SnackbarProvider} from "notistack";
 import store from "./app/features/store.ts";
 import {CssBaseline} from "@mui/material";
 import ThemeWrapper from "./app/components/themes/ThemeWrapper.tsx";
+import {BrowserRouter} from "react-router-dom";
 
 createRoot(document.getElementById('root')!).render(
+    <BrowserRouter>
       <Provider store={store}>
           <ThemeWrapper>
               <SnackbarProvider maxSnack={5}>
@@ -16,4 +18,5 @@ createRoot(document.getElementById('root')!).render(
               </SnackbarProvider>
           </ThemeWrapper>
       </Provider>
+    </BrowserRouter>
 )

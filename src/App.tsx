@@ -1,12 +1,15 @@
 import useWindowTitleWatcher from "./app/features/general/hooks/useWindowTitleWatcher.ts";
-import ThemeSelector from "./app/components/themes/ThemeSelector.tsx";
+import {Route, Routes} from "react-router-dom";
+import MainPage from "./app/pages/MainPage.tsx";
 
 function App() {
     useWindowTitleWatcher();
 
     return (
         <>
-            <ThemeSelector/>
+            <Routes>
+                <Route path="/" element={<MainPage/>}/>
+            </Routes>
         </>
     )
 }
