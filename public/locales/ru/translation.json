@@ -1,4 +1,9 @@
 {
+  "common": {
+    "noBTN": "Нет",
+    "yesBTN": "Да",
+    "cancelBTN": "Отменить"
+  },
   "themes": {
     "dark": "Тёмная",
     "light": "Светлая",
@@ -9,5 +14,8 @@
     "age": "Возраст",
     "gender": "Пол",
     "cloth": "Одежда"
+  },
+  "personaSections": {
+    "unsavedChangesConfirm": "У вас есть несохраненные изменения. Вы уверены, что хотите уйти?"
   }
 }

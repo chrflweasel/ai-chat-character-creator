@@ -6,4 +6,5 @@ export interface PersonaSectionCardProps {
     onUpdateSection: (section: PersonaSection) => void;
     onDeleteSection: VoidFunction;
     onCancelEditing: VoidFunction;
+    onEditActivated: VoidFunction;
 }

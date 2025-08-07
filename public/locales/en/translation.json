@@ -1,4 +1,9 @@
 {
+  "common": {
+    "noBTN": "No",
+    "yesBTN": "Yes",
+    "cancelBTN": "Cancel"
+  },
   "themes": {
     "dark": "Dark",
     "light": "Light",
@@ -9,5 +14,8 @@
     "age": "Age",
     "gender": "Gender",
     "cloth": "Cloth"
+  },
+  "personaSections": {
+    "unsavedChangesConfirm": "You have unsaved changes. Are you sure you want to leave?"
   }
 }
